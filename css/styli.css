@@ -1,0 +1,245 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(229, 215, 241);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+.mynav {
+    background-color: rgb(210, 33, 241);
+    font-weight: 600;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 20px;
+}
+
+.btn-mybutton{
+background-color: rgb(203, 157, 247);
+width: 200px;
+color: white;
+font-weight: 600;
+font-size: 20px;
+}
+
+.my-h1 {
+padding-left: 20%;
+text-align: center;
+color: #6C2DC7;
+font-weight: 900;
+font-size: 40px;
+}
+
+.my-p {
+padding-left: 20%;
+font-weight: 600;
+font-size: ox;
+color: #6C2DC7;
+}
+
+.column {
+    float: left;
+    width: 120%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+    
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  .mysele-img {
+    background-color: white;
+    
+  }
+  .btn-mybutton {
+ margin-left: 30%;
+  }
+  .btn-mybutton:hover {
+    color: #6C2DC7;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: #6C2DC7;
+    color: rgb(203, 157, 247);
+    transform: rotateY(180deg);
+  }
+
+  .card-back{
+    font-weight: 400;
+    font-size: 20px;
+    
+  }
+  .card-back1{
+    font-weight: 400;
+    font-size: 2px;
+  }
+
+ .my-h2 {
+    padding-left: 40%;
+    text-align: center;
+    color: #6C2DC7;
+    font-weight: 900;
+    font-size: 60px;
+  }
+    .Case-Studies {
+        background-color: white;
+    }
+
+.card-back-Unit{
+        font-weight: 400;
+        font-size: 20px;
+        color: white;
+        
+    }
+.card-Studies {
+      text-align: center;
+        font-weight: 400;
+        font-size: 24px;
+        padding-inline-start: 10%;
+        transform: all .2s ease-in;
+        color: #6C2DC7;
+       transition: all .2s ease-in;
+    }
+
+.card-Studies:hover {
+        scale: 1.1;
+        box-shadow: 0 0 7px 0 rgb(210, 33, 241);
+        }
+
+
+        
+.myh1{
+            padding-left: 20%;
+            text-align: center;
+            color: #6C2DC7;
+            font-weight: 900;
+            font-size: 40px;
+        }
+
+.myp1{
+            padding-left: 10%;
+            font-weight: 600;
+            font-size: 20px;
+            color: #6C2DC7;
+        }
+.myimg{
+            width: 130%;
+        }
+
+.mybutton-Sponsorship{
+            width: 30%;
+            background-color: rgb(203, 157, 247);
+            color: white;
+            font-weight: 600;
+            font-size: 20px;
+            margin-left: 20%;
+            
+        }
+
+.Memberships{
+            background-color: white;
+        }
+.Memberships-img{
+            width: 40%;
+        }
+
+.myMemberships{
+            font-weight: 900;
+            font-size: 40px;
+            color: #6C2DC7;
+        }
+       
+        .Clients-img {
+            width: 200px;
+                text-align: center;
+                font-weight: 400;
+                font-size: 24px;
+                padding-inline-start: 10%;
+                transform: all .2s ease-in;
+                color: #6C2DC7;
+               transition: all .2s ease-in;
+            }
+
+        
+             .Clients-img:hover {
+                scale: 1.1;
+                box-shadow: 0 0 7px 0 rgb(210, 33, 241);
+                }
+        
+                .end{
+                    background-color: white;
+                }
+
+                .end-img2 {
+                    width: 150px;
+                        text-align: center;
+                        font-weight: 400;
+                        font-size: 24px;
+                        padding-inline-start: 10%;
+                        transform: all .2s ease-in;
+                        color: #6C2DC7;
+                       transition: all .2s ease-in;
+                    }
+                
+                     .end-img2:hover {
+                        scale: 1.1;
+                        box-shadow: 0 0 7px 0 rgb(210, 33, 241);
+                        }
+                        .TUV-text{
+                            margin: 5%;
+                            font-size: 15px;
+                        }
